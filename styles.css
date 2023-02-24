@@ -1,1 +1,36 @@
+body {
+  margin: 0px;
+}
+.container {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 20px 30px;
+  padding: 0;
+  column-gap: 50px;
+}
+img {
+  width: 140px;
+  height: 130px;
+}
+.profile {
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 90px;
+  justify-content: space-between;
+}
+.details {
+  display: flex;
+  flex-flow: column wrap;
+}
+.left {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+}
+.skills {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: space-evenly;
+  justify-content: flex-end;
+}
 
